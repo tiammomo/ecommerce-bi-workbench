@@ -1,0 +1,11 @@
+﻿id,store_id,platform_product_id,platform_sku,sku_id,unit,factor,status
+MAP-temu-3-SKU006,temu-3,temu-3-P002,000006,SKU006,件,1,mapped
+MAP-temu-3-SKU014,temu-3,temu-3-P005,000014,SKU014,件,1,mapped
+MAP-temu-3-SKU024,temu-3,temu-3-P008,000024,SKU024,件,1,mapped
+MAP-temu-3-SKU050,temu-3,temu-3-P017,000050,SKU050,件,1,mapped
+MAP-temu-3-SKU064,temu-3,temu-3-P022,000064,SKU064,件,1,mapped
+MAP-1688-1-SKU006,1688-1,1688-1-P002,000006,SKU006,包（10件）,10,mapped
+MAP-1688-1-SKU014,1688-1,1688-1-P005,000014,SKU014,包（10件）,10,mapped
+MAP-1688-1-SKU024,1688-1,1688-1-P008,000024,SKU024,包（10件）,10,mapped
+MAP-1688-1-SKU050,1688-1,1688-1-P017,000050,SKU050,包（10件）,10,mapped
+MAP-1688-1-SKU064,1688-1,1688-1-P022,000064,SKU064,包（10件）,10,mapped

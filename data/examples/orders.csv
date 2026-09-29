@@ -1,0 +1,4 @@
+﻿id,platform_order_id,channel_id,store_id,paid_at,status,currency,fx_rate
+ORD-000001,00000001,temu,temu-3,2026-04-02T08:57:00+08:00,paid,USD,7.12
+ORD-000002,00000001,1688,1688-1,2026-04-02T09:22:00+08:00,paid,CNY,1
+ORD-000003,000000003,temu,temu-3,2026-04-02T10:33:00+08:00,paid,USD,7.12

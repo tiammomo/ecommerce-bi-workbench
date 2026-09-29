@@ -1,0 +1,7 @@
+﻿id,sku_id,scope,scope_id,unit_cost,valid_from,valid_to,note
+C-BASE-SKU006,SKU006,base,base,28,2026-04-02T00:00:00+08:00,,演示基础采购成本
+C-TEMU-SKU006,SKU006,channel,temu,31.36,2026-04-02T00:00:00+08:00,,演示渠道差异成本，不包含物流
+C-BASE-SKU014,SKU014,base,base,15,2026-04-02T00:00:00+08:00,,演示基础采购成本
+C-BASE-SKU024,SKU024,base,base,39,2026-04-02T00:00:00+08:00,,演示基础采购成本
+C-BASE-SKU050,SKU050,base,base,37,2026-04-02T00:00:00+08:00,,演示基础采购成本
+C-BASE-SKU064,SKU064,base,base,38,2026-04-02T00:00:00+08:00,,演示基础采购成本

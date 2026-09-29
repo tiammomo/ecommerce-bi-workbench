@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sales-up-profit-down",
+    "object": "pdd-1 / 栖物家居旗舰店",
+    "period": "2026-08-30～2026-09-28",
+    "evidence": "订单权重增长，物流费用2.2倍，广告率从7.5%升为40%"
+  },
+  {
+    "id": "cross-channel-sku",
+    "object": "SKU001～SKU012",
+    "period": "全部180天",
+    "evidence": "各渠道价格不同；Temu渠道覆盖，temu-1店铺覆盖；1688包到件系数为10"
+  },
+  {
+    "id": "refund-concentration",
+    "object": "SKU001 / 云朵折叠收纳箱",
+    "period": "2026-08-20～2026-09-28",
+    "evidence": "退款事件集中且促销折价，核验退款及贡献利润"
+  },
+  {
+    "id": "cost-rise",
+    "object": "SKU004 / 模块化抽屉分隔板",
+    "period": "2026-09-10",
+    "evidence": "基础成本22元上涨至28.16元；C-BASE-SKU004-V1/V2；Temu仍优先覆盖"
+  },
+  {
+    "id": "cost-inheritance",
+    "object": "SKU001",
+    "period": "全部180天",
+    "evidence": "temu-1店铺成本15.90，temu-2渠道16.80，pdd-1基础15.00"
+  },
+  {
+    "id": "missing-cost",
+    "object": "SKU070、SKU071",
+    "period": "全部180天",
+    "evidence": "有映射无有效成本，可补齐2026-04-02起生效的成本后显式重算"
+  },
+  {
+    "id": "unmapped",
+    "object": "平台 SKU 009999",
+    "period": "每第197笔订单首行",
+    "evidence": "销售保留，利润待核算；映射维护后历史补全"
+  },
+  {
+    "id": "refund-date-basis",
+    "object": "REF- 开头退款事件",
+    "period": "支付后2～15天",
+    "evidence": "完成日与支付日不同；仅退款成本不转回，可回收退货按历史成本转回"
+  },
+  {
+    "id": "unallocated-expense",
+    "object": "1688-3 / EXP-UNALLOCATED-1688-3-20260925",
+    "period": "2026-09-25",
+    "evidence": "当日无订单，320元广告费用保留未分摊且扣整体与店铺利润"
+  },
+  {
+    "id": "duplicate-platform-number",
+    "object": "平台订单号00000001",
+    "period": "2026-04-02",
+    "evidence": "9家店各自第一笔订单同号但ID、渠道+店铺+原订单号唯一键不同"
+  }
+]

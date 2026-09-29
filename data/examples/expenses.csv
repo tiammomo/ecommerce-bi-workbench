@@ -1,0 +1,10 @@
+﻿id,store_id,date,kind,amount_original,currency,fx_rate,order_id,line_id,source
+EXP-ORD-000001-platform,temu-3,2026-04-02,platform,16.64,CNY,1,ORD-000001,,模拟订单履约费用
+EXP-ORD-000001-packaging,temu-3,2026-04-02,packaging,2.30,CNY,1,ORD-000001,,模拟订单履约费用
+EXP-ORD-000001-logistics,temu-3,2026-04-02,logistics,18.00,CNY,1,ORD-000001,,模拟订单履约费用
+EXP-ORD-000002-platform,1688-1,2026-04-02,platform,14.38,CNY,1,ORD-000002,,模拟订单履约费用
+EXP-ORD-000002-packaging,1688-1,2026-04-02,packaging,6.00,CNY,1,ORD-000002,,模拟订单履约费用
+EXP-ORD-000002-logistics,1688-1,2026-04-02,logistics,12.00,CNY,1,ORD-000002,,模拟订单履约费用
+EXP-ORD-000003-platform,temu-3,2026-04-02,platform,18.30,CNY,1,ORD-000003,,模拟订单履约费用
+EXP-ORD-000003-packaging,temu-3,2026-04-02,packaging,2.30,CNY,1,ORD-000003,,模拟订单履约费用
+EXP-ORD-000003-logistics,temu-3,2026-04-02,logistics,18.00,CNY,1,ORD-000003,,模拟订单履约费用

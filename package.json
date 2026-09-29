@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-bi-workbench",
+  "private": true,
+  "packageManager": "pnpm@12.6.0",
+  "scripts": {
+    "dev": "python3 scripts/dev.py",
+    "build": "pnpm --filter web build",
+    "typecheck": "pnpm --filter web typecheck",
+    "test:e2e": "playwright test",
+    "api:types": "python3 scripts/generate_api_types.py",
+    "setup": "python3 scripts/setup.py",
+    "serve": "python3 scripts/serve.py",
+    "db:migrate": "uv run --directory apps/api python -m app.cli migrate",
+    "db:seed": "uv run --directory apps/api python -m app.cli seed",
+    "db:backup": "uv run --directory apps/api python -m app.cli backup",
+    "test:api": "uv run --directory apps/api pytest",
+    "test:web": "pnpm --filter web test",
+    "check:api": "uv run --directory apps/api ruff check .",
+    "format:check:api": "uv run --directory apps/api ruff format --check .",
+    "test:persistence": "uv run --directory apps/api python ../../scripts/verify_persistence.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "openapi-typescript": "^7.13.0",
+    "prettier": "^3.8.0"
+  }
+}
